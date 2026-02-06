@@ -80,3 +80,5 @@ The system is designed with a modular architecture that enables scaling across r
 
 
 ## 7. Design Decisions & Trade-offs
+The design prioritizes safety and real-world deployability over aggressive automation. AI is intentionally constrained to triage and trend detection, with all medical decisions retained by humans. A voice-first interface was chosen to maximize accessibility, accepting reduced input precision as a trade-off mitigated by structured follow-up. Conservative escalation logic favors sensitivity over efficiency to reduce the risk of missed care.
+
