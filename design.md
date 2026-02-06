@@ -9,15 +9,21 @@ The design prioritizes reliability, responsible AI use, and real-world deploymen
 
 
 ## 2. High-Level Architecture
+The system follows a layered architecture that separates access, intelligence, and care delivery to ensure safety, clarity, and scalability.
+
+Patients and caregivers interact with the system through voice-first interfaces, including IVR-based phone access and lightweight mobile applications. These inputs are converted into structured symptom data through guided questioning.
+
+The structured data flows into the Intelligence Layer, where risk scoring and trend analysis are performed. This layer evaluates both current symptoms and changes over time to identify patients requiring attention.
+
+Based on risk and trend signals, cases are categorized for routine follow-up, community health worker review, or doctor escalation.
+
+The Care Layer presents prioritized cases to ASHA workers and doctors, along with concise patient history and symptom trends.
+
+AI outputs remain advisory, while all medical decisions and interventions are executed by human healthcare professionals.
+
+The architecture is designed to operate reliably under low-connectivity conditions and supports incremental scaling across regions and programs.
 
 
-## 3. Core Innovation
-
-The core innovation lies in using AI as a triage and prioritization system rather than a diagnostic or prescription tool.
-
-Instead of attempting to replace doctors, the system continuously evaluates patient-reported symptoms over time, assigns risk scores, and detects worsening trends. This enables limited healthcare resources to be directed toward patients who need attention the most, at the right time.
-
-By focusing on trend-based risk escalation rather than single-visit diagnosis, the system improves early detection for vulnerable populations while reducing unnecessary load on doctors.
 
 ## 3. Layered System Design
 
