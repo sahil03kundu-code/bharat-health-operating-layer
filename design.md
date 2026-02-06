@@ -9,6 +9,17 @@ The design prioritizes reliability, responsible AI use, and real-world deploymen
 
 
 ## 2. High-Level Architecture
+The system is structured into three clearly separated layers to ensure safety, explainability, and operational clarity.
+
+1. Access Layer  
+This layer handles all patient interactions. Patients connect via a phone call or mobile application and communicate using natural speech in their local language. The primary role of this layer is to capture symptoms, duration, severity, and basic patient context in a frictionless manner.
+
+2. Intelligence Layer  
+This layer converts raw voice input into structured medical signals. It includes controlled speech-to-structure conversion, AI-assisted risk scoring, and a trend analysis engine that compares current inputs with the patient’s historical data. This layer does not make medical decisions; it only surfaces risk indicators.
+
+3. Care & Escalation Layer  
+This layer routes cases based on risk levels. Low-risk cases are monitored, medium-risk cases are flagged for follow-up, and high-risk cases are escalated to human healthcare professionals or nearby facilities for intervention.
+
 
 ## 3. Layered System Design
 
