@@ -31,6 +31,26 @@ The system does not perform medical diagnosis, prescribe medication, or replace 
 
 
 ## 5. Functional Requirements
+1. The system shall allow patients, caregivers, or family members to initiate a healthcare interaction through a voice-based interface, such as a phone call or mobile application.
+
+2. The system shall support symptom input through free speech and convert it into structured data fields, including symptom type, duration, severity, and relevant contextual indicators.
+
+3. The system shall ask structured follow-up questions to complete missing or unclear information required for triage.
+
+4. The system shall generate a risk category for each interaction using conservative triage logic, categorizing cases into monitoring, frontline health worker review, or doctor escalation.
+
+5. The system shall store patient interactions with timestamps and track symptom changes over time to identify trends and deterioration.
+
+6. The system shall automatically trigger follow-up interactions based on predefined rules, including symptom persistence, worsening trends, or missed responses.
+
+7. The system shall escalate cases to ASHA or ANM workers when risk thresholds are met or when patient data confidence is low.
+
+8. The system shall escalate cases to doctors at PHC or CHC levels when high-risk conditions or worsening trends are detected.
+
+9. The system shall present escalated cases to healthcare workers with a summarized patient history and symptom trend view.
+
+10. The system shall allow human healthcare workers to review, override, or act upon AI-generated triage suggestions.
+
 
 ## 6. Non-Functional Requirements
 
