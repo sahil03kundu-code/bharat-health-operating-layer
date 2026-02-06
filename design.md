@@ -20,6 +20,13 @@ This layer converts raw voice input into structured medical signals. It includes
 3. Care & Escalation Layer  
 This layer routes cases based on risk levels. Low-risk cases are monitored, medium-risk cases are flagged for follow-up, and high-risk cases are escalated to human healthcare professionals or nearby facilities for intervention.
 
+## 3. Core Innovation
+
+The core innovation lies in using AI as a triage and prioritization system rather than a diagnostic or prescription tool.
+
+Instead of attempting to replace doctors, the system continuously evaluates patient-reported symptoms over time, assigns risk scores, and detects worsening trends. This enables limited healthcare resources to be directed toward patients who need attention the most, at the right time.
+
+By focusing on trend-based risk escalation rather than single-visit diagnosis, the system improves early detection for vulnerable populations while reducing unnecessary load on doctors.
 
 ## 3. Layered System Design
 
