@@ -79,3 +79,13 @@ The system does not provide emergency response services such as ambulance dispat
 
 
 ## 8. Success Metrics
+The system is considered successful if it demonstrates improved continuity of care by maintaining follow-up interactions with patients over time.
+
+The system should enable earlier identification of worsening conditions, as indicated by timely escalations to frontline health workers or doctors before emergency situations arise.
+
+The system should reduce unnecessary clinical load by filtering low-risk cases while prioritizing high-risk cases for human review.
+
+The system should be usable by individuals with low literacy and limited technical familiarity, as evidenced by successful voice-based interactions across supported languages.
+
+The system should be trusted and adopted by healthcare workers, demonstrated by their active engagement with escalated cases and use of symptom trend summaries.
+
