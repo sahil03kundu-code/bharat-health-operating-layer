@@ -66,6 +66,12 @@ By filtering low-risk cases and prioritizing patients showing worsening trends, 
 
 
 ## 4. Data Flow & Continuity
+Patient interactions generate structured symptom records that are stored as time-ordered entries linked to a persistent patient identity. Each new interaction is evaluated in the context of prior data to assess changes in risk over time.
+
+Risk scores, escalation decisions, and follow-up actions are recorded to maintain continuity of care. This longitudinal data enables trend-based evaluation rather than isolated assessments.
+
+Data flow between layers is controlled and purpose-specific, ensuring only relevant information is exposed to healthcare workers while maintaining patient privacy and system safety.
+
 
 ## 5. Safety & Responsibility Principles
 The system is designed with conservative safety principles to minimize the risk of delayed or missed care.
