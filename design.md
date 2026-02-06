@@ -62,6 +62,18 @@ By filtering low-risk cases and prioritizing patients showing worsening trends, 
 ## 4. Data Flow & Continuity
 
 ## 5. Safety & Responsibility Principles
+The system is designed with conservative safety principles to minimize the risk of delayed or missed care.
+
+AI-generated outputs are limited to risk categorization and escalation suggestions. The system does not provide diagnoses, prescriptions, or treatment instructions at any stage.
+
+Risk assessment prioritizes sensitivity over specificity, favoring escalation when uncertainty exists. This reduces the likelihood of under-triaging potentially serious conditions.
+
+Human healthcare workers retain full authority to override AI suggestions at all times. Overrides are treated as expected outcomes rather than exceptions.
+
+To mitigate errors from single interactions, the system relies on trend-based evaluation rather than isolated symptom snapshots. Worsening patterns over time trigger automatic escalation.
+
+In cases of system failure, connectivity loss, or uncertain inputs, the system defaults to recommending human review rather than automated triage.
+
 
 ## 6. Scalability & Extensibility
 
