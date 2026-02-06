@@ -9,6 +9,8 @@ The core problem is not the absence of doctors or schemes, but the absence of a 
 
 
 ## 2. Objective
+The objective of this system is to provide a voice-first, AI-assisted healthcare triage layer that continuously tracks patient symptoms over time and supports timely escalation to appropriate human care. The system is designed to structure symptom input, assess risk conservatively, and ensure follow-up without performing diagnosis or prescribing treatment. By acting as a coordination and risk-visibility layer between patients, frontline health workers, and doctors, the system aims to reduce delayed care while optimizing limited medical resources.
+
 
 ## 3. Target Users
 
