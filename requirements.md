@@ -21,6 +21,14 @@ Tertiary users include frontline health workers such as ASHA and ANM staff, as w
 
 
 ## 4. System Scope
+The system provides a voice-first interface for capturing patient-reported symptoms and relevant contextual information, converts this input into structured data, and applies AI-assisted triage logic to assess risk and determine appropriate follow-up or escalation.
+
+The system maintains patient continuity by tracking symptom changes over time and triggering follow-up actions when risk increases or when expected responses are missed.
+
+The system supports escalation workflows to frontline health workers or doctors by presenting prioritized cases with summarized history and symptom trends.
+
+The system does not perform medical diagnosis, prescribe medication, or replace clinical judgment. All medical decisions and treatments remain the responsibility of qualified healthcare professionals.
+
 
 ## 5. Functional Requirements
 
