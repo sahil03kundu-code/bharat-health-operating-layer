@@ -13,6 +13,12 @@ The objective of this system is to provide a voice-first, AI-assisted healthcare
 
 
 ## 3. Target Users
+The primary users of the system include individuals from rural and semi-rural communities who face barriers to timely healthcare access, particularly due to distance, language, or literacy limitations.
+
+Secondary users include caregivers and family members who often make healthcare decisions on behalf of patients in the Indian context.
+
+Tertiary users include frontline health workers such as ASHA and ANM staff, as well as doctors at PHC and CHC levels, who receive structured, prioritized cases for review and intervention.
+
 
 ## 4. System Scope
 
