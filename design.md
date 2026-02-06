@@ -76,5 +76,7 @@ In cases of system failure, connectivity loss, or uncertain inputs, the system d
 
 
 ## 6. Scalability & Extensibility
+The system is designed with a modular architecture that enables scaling across regions and user volumes without core changes. Language support and triage logic are extensible, allowing gradual expansion and policy updates. Clear integration boundaries support future connections with public health systems while maintaining reliability and safety.
+
 
 ## 7. Design Decisions & Trade-offs
