@@ -69,5 +69,13 @@ The system does not perform medical diagnosis, prescribe medication, or replace 
 
 
 ## 7. Out of Scope
+The system does not perform medical diagnosis, recommend treatments, or prescribe medications.
+
+The system does not replace qualified healthcare professionals or make final clinical decisions.
+
+The system does not store or process biometric identifiers or government-issued identity documents.
+
+The system does not provide emergency response services such as ambulance dispatch.
+
 
 ## 8. Success Metrics
