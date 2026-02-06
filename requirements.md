@@ -53,6 +53,20 @@ The system does not perform medical diagnosis, prescribe medication, or replace 
 
 
 ## 6. Non-Functional Requirements
+1. The system shall prioritize patient safety by using conservative escalation logic and avoiding autonomous medical decision-making.
+
+2. The system shall ensure high availability and reliability to support continuous follow-up and time-sensitive escalations.
+
+3. The system shall support multilingual voice interactions and be designed to extend to additional regional languages without architectural changes.
+
+4. The system shall maintain patient data privacy by collecting only the minimum information required for care continuity and triage.
+
+5. The system shall provide transparency by distinguishing deterministic safety rules from probabilistic AI-assisted assessments.
+
+6. The system shall allow human healthcare workers to override AI-generated triage outputs at any stage.
+
+7. The system shall be designed to function in low-connectivity environments with graceful degradation.
+
 
 ## 7. Out of Scope
 
